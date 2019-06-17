@@ -1,0 +1,13 @@
+{
+    "name": "nodejs_1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "node.js",
+    "scripts": {
+        "postinstall": "bower install && grunt build",
+        "start": "node node1.js",
+        "test": "node ./node_modules/jasmine/bin/jasmine.js"
+    },
+    "author": "",
+    "license": "ISC"
+}
